@@ -1,0 +1,10 @@
+The main components of this project are:
+1) Developing code to scan the SQL, images and binary records to
+   extract the Unknown labelled images
+2) Develop a set of descriptors for the detected fish (perhaps via a deep net)
+3) Automatically cluster the Unknown fish into groups using the descriptors
+4) Develop a manual screening tool that displays fish in a cluster and
+   allows a user to mark fish that do not belong to that cluster.
+5) Use the tool to screen some or all of the clusters
+6) Extract the main clusters from the image data and present to a user.
+7) Extend the analysis to also include fish with low recognition scores.
